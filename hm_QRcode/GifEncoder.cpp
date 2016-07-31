@@ -135,7 +135,7 @@ bool CGifEncoder::FinishEncoder (PropertyItem* pItem) {
 
 void CGifEncoder::SetDelayTime (int ms) {
 	if (ms > 0) {
-		m_delayTime = ms / 10.0f;
+		m_delayTime = (int)(ms / 10.0f);
 	}
 }
 
@@ -147,7 +147,7 @@ void CGifEncoder::SetRepeatNum (int num) {
 
 void CGifEncoder::SetFrameRate (float fps) {
 	if (fps > 0) {
-		m_delayTime = 100.0f / fps;
+		m_delayTime = (int)(100.0f / fps);
 	}
 }
 

@@ -1,6 +1,6 @@
 #hm_QRcode
 
-[![Build status](https://ci.appveyor.com/api/projects/status/sevx30r3u072q5hg/branch/master?svg=true)](https://ci.appveyor.com/api/projects/status/sevx30r3u072q5hg/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/frechiuk78ga3c7l/branch/master?svg=true)](https://ci.appveyor.com/api/projects/status/frechiuk78ga3c7l/branch/master)
 
 VS2013下 动图二维码生成器
 
